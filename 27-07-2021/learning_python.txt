@@ -1,0 +1,5 @@
+In python I have learned many things, including:
+
+1. Handling large files.
+2. Describing objects in classes.
+3. Store stuff in dictionaries.

@@ -1,0 +1,11 @@
+with open("bookexample.txt", "r") as f_obj:
+    content = f_obj.read()
+    print("content = ", end="")
+    print(content, end="")
+    print("\n")
+    words = content.split()
+    print("words = ", end="")
+    print(words, end="")
+    print("\n")
+    sentences = content.split(".")
+    print("sentences = " + str(sentences))
