@@ -21,7 +21,7 @@ def is_prime(number):
 
 def write_slowly(string):
     for char in string:
-        sleep(0.000000000001)
+        sleep(0.000000001)
         sys.stdout.write(char)
         sys.stdout.flush()
                
